@@ -163,7 +163,7 @@ cutString("prova")
 const giveMeRandom = function (n){
     let randomNumber = []
     for (let i = 0; i < n; i++ ){
-        randomNumber [i] = math.floor(math.random() *11)
+        randomNumber [i] = Math.floor(Math.random() *11)
     }
     console.log("numeri ad muzzum", randomNumber)
 }
